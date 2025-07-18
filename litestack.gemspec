@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary = "A SQLite based, lightning fast, super efficient and dead simple to setup and use database, cache and job queue for Ruby and Rails applications!"
   spec.homepage = "https://github.com/oldmoe/litestack"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 3.0.0"
+  spec.required_ruby_version = ">= 2.7.1"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
   spec.metadata["homepage_uri"] = spec.homepage
@@ -38,9 +38,9 @@ Gem::Specification.new do |spec|
   spec.add_dependency "erubi", "~> 1"
 
   spec.add_development_dependency "rake", "~> 13"
-  spec.add_development_dependency "activerecord", "~> 7"
-  spec.add_development_dependency "activejob", "~> 7"
-  spec.add_development_dependency "railties", "~> 7"
+  spec.add_development_dependency "activerecord", "~> 6"
+  spec.add_development_dependency "activejob", "~> 6"
+  spec.add_development_dependency "railties", "~> 6"
   spec.add_development_dependency "minitest", "~> 5"
   spec.add_development_dependency "simplecov", "~> 0.2"
   spec.add_development_dependency "standard", "~> 1"
